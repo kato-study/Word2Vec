@@ -8,7 +8,7 @@ def calculate_similarity(model, word1, word2):
 
 def main():
     # モデルのロード
-    model = Word2Vec.load("text_word2vec.model")
+    model = Word2Vec.load("word2vec_updated.model")
 
     # ユーザーからの入力を受け取る
     word1 = input("類似度を計算するための単語1を入力してください: ")

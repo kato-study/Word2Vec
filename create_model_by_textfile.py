@@ -23,7 +23,7 @@ def main():
     model = Word2Vec(sentences=tokenized_texts, vector_size=100, window=5, min_count=1, workers=4)
     
     # モデルの保存
-    model.save("text_word2vec.model")
+    model.save("word2vec.model")
 
 # スクリプトが直接実行された場合にのみmain関数を呼び出す
 if __name__ == '__main__':
